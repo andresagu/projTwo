@@ -1,9 +1,4 @@
 {
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
-        }
-    ],
     "buildpacks": [],
     "env": {
         "NODE_ENV": {
