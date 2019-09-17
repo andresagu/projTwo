@@ -1,12 +1,10 @@
 {
-  "name": "express-example",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "cross-env DEBUG=express-sequelize node ./bin/www",
-    "test": "npm run test-unit && npm run test-integration",
-    "test-unit": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/unit/*.test.js",
-    "test-integration": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/integration/*.test.js"
+  "name": "projtwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   },
   "dependencies": {
     "bcryptjs": "2.4.3",
@@ -33,5 +31,22 @@
     "expect.js": "^0.3.1",
     "mocha": "^6.2.0",
     "supertest": "^2.0.0"
-  }
+  },
+  "private": true,
+  "scripts": {
+    "start": "cross-env DEBUG=express-sequelize node ./bin/www",
+    "test": "npm run test-unit && npm run test-integration",
+    "test-unit": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/unit/*.test.js",
+    "test-integration": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/integration/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresagu/projTwo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresagu/projTwo/issues"
+  },
+  "homepage": "https://github.com/andresagu/projTwo#readme"
 }
